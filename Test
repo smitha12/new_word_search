@@ -1,0 +1,90 @@
+
+//  To print the puzzle
+private static void test1()  
+{
+
+WordSearch word = new WordSearchPuzzle(“puzzle.txt”,100,3,3);
+word.getWordSearchList() ;
+word.showWordSearch() ;
+
+System.out.println();
+}
+
+// shortest word = 2, longest word = 8
+private static void test2()
+{
+WordSearch word = new WordSearch(“BONES”,8,2,8);
+word.getWordSearchList() ;
+word.showWordSearch() ;
+
+System.out.println();
+}
+private static void test3()
+{
+WordSearch word = new WordSearch(“KHAN”,8,2,8);
+word.getWordSearchList() ;
+word.showWordSearch() ;
+
+System.out.println();
+}
+
+private static void test4()
+{
+WordSearch word = new WordSearch(“KIRK”,8,2,8);
+word.getWordSearchList() ;
+word.showWordSearch() ;
+System.out.println();
+}
+
+private static void test5()
+{
+WordSearch word = new WordSearch(“SCOTTY”,8,2,8);
+word.getWordSearchList() ;
+word.showWordSearch() ;
+System.out.println();
+}
+
+private static void test6()
+{
+WordSearch word = new WordSearch(“SPOCK”,8,2,8);
+word.getWordSearchList() ;
+word.showWordSearch() ;
+System.out.println();
+}
+
+private static void test7()
+{
+WordSearch word = new WordSearch(“SULU”,8,2,8);
+word.getWordSearchList() ;
+word.showWordSearch() ;
+System.out.println();
+}
+
+
+private static void test8()
+{
+WordSearch word = new WordSearch(“UHURA”,8,2,8);
+word.getWordSearchList() ;
+word.showWordSearch() ;
+System.out.println();
+}
+
+public static void main(String[] args)
+{
+System.out.println();
+System.out.println(“ ARE THE TEST +|n”) ;
+System.out.println();
+Driver.test1();
+Driver.test2();
+Driver.test3();
+Driver.test4();
+Driver.test5();
+Driver.test6();
+Driver.test7();
+Driver.test8();
+}
+
+
+
+
+
